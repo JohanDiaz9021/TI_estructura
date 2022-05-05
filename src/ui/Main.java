@@ -155,7 +155,6 @@ public class Main {
         countries = new MeLinkedLists<>();
         String line = bn.readLine();
         double init = 0;
-        System.out.println(line);
 
         while (line != null) {
             line = bn.readLine();
