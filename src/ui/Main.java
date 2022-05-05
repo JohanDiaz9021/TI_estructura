@@ -126,8 +126,7 @@ public class Main {
 
 
     public static String getRandomDate() {
-        int[] limit = new int[];
-        limit =  distribution();
+        int[] limit = distribution();
         Calendar cal = Calendar.getInstance();
         cal.set(cal.get(Calendar.YEAR), ((int) (Math.random()*(13-1)+1)), ((int) (Math.random()*(31-1)+1)));
 
@@ -138,6 +137,7 @@ public class Main {
         double random = Math.random();
         boolean flag = true;
         int cont = 0;
+        System.out.println(random);
 
         while (flag){
             if (random >= countries.get(cont).getInit() && random < countries.get(cont).getEnd()){
