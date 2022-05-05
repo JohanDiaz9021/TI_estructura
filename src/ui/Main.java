@@ -137,7 +137,6 @@ public class Main {
         double random = Math.random();
         boolean flag = true;
         int cont = 0;
-        System.out.println(random);
 
         while (flag){
             if (random >= countries.get(cont).getInit() && random < countries.get(cont).getEnd()){
